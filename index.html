@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>CET ONLINE STORE website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <!--added a cdn link by searching font awesome4 cdn and getting this link from https://www.bootstrapcdn.com/fontawesome/ this url*/-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <style>
+            body {
+                background-image: url('webpic/bg1.png'); /* Set background image */
+                background-size: cover; /* Cover the entire viewport */
+                background-repeat: no-repeat; /* Prevent repeating of the image */
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class ="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="webpic/logo2.png" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                         <li><a href="products.html">Products</a></li>
+                         <li><a href="account.html">Login</a></li>
+                         
+
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="webpic/cart.png" class="cart-img" width="30px" height="30px"></a>
+                <img src="webpic/menu.png" class="menu-icon" onClick="menutoggle()" >
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>The best for <br> less.</h1>
+                    <p>The best things in life are <br> purchased.</p>
+                    <a href="products.html" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="webpic/logo1.png">
+                </div>
+            </div>
+        </div>
+    </div>
+        
+       
+        <!------------------------------ featured Products------------------------------>
+        <div class="small-container">
+            <h2 class="title" >Featured Products</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <a href="s1.html"><img src="webpic/s1.png"></a>
+                        <a href="S1.html"><h4>CET TSHIRT  MEN </h4></a>
+                        <div class="rating">
+                            <!--(before this added awesome4 cdn font link to the head)added a cdn link by searching font awesome4 icon and from the site  search the star entering the first option and getting a link of this fa-star*-->
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>P300</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="s4.html"><img src="webpic/s4.png"></a>
+                        <a href="s4.html"><h4>CET JERSEY </h4></a>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                        </div>
+                        <p>P450</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="c1.html"><img src="webpic/itcard1.png"></a>
+                        <a href="c1.html"><h4>BSIT ID CARD </h4></a>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                        </div>
+                        <p>P50</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="n1.html"><img src="webpic/n1.png"></a>
+                        <a href="n1.html"><h4>CET ID LACE STYLE 1 </h4></a>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                        </div>
+                        <p>P65</p>
+                    </div>  
+                </div>
+            
+            
+            
+        
+        <!--------------------------`   offer   --------------------------------->
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                      
+                        <img src="webpic/s4.png" class="cart-img">
+                    </div>
+                    <div class="col-2">
+                        <p>Exclusively Available on CET STORE </p>
+                        <h1>New CET Shirt</h1>
+                        <small> Bringing that Jersey pride wherever you go. </small><br>
+                        <a href="s4.html" class="btn">Buy Now &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+       
+        <!----------------------------------Brands------------------------------------>
+        <div class="brands">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="images/logo-godrej.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-oppo.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-coca-cola.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-paypal.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-philips.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!----------------------------------footer------------------------------------->
+        <div class ="footer">
+        <div class="container">
+            
+            <div class="row">
+                
+                </div>
+                <div class="footer-col-2">
+                    <img src="webpic/logo3.png">
+                    <p>The purpose of life is to contribute in some way to making things better. </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="https://rmmc.instructure.com/login/canvas" target="_blank">RMMC CANVAS   <span>&#8594;</span></a></li>
+                        <li><a href="http://system.rmmc.edu.ph/rmmcweb/" target="_blank">RMMC LMS   <span>&#8594;</span></a></li>
+                        
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                   <ul>
+                    <li><a href="https://web.facebook.com/ricoalcala55" target="_blank">Facebook  <span>&#8594;</span></a></li>
+                     
+                    <li><a href="https://www.instagram.com/rics.alcla/" target="_blank">Instagram<span>&#8594;</span></a></li>
+                    
+                    </ul>
+                </div>
+                
+     
+    </div>
+        
+        
+        <!-----------------------------------js for toggle menu----------------------------------------------->
+        <script>
+            var menuItems=document.getElementById("MenuItems");
+            
+            MenuItems.style.maxHeight="0px";
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px"){
+                    MenuItems.style.maxHeight="200px";
+                }
+                else{
+                    MenuItems.style.maxHeight="0px";
+                }
+            }
+        </script>
+    </body>
+</html>
